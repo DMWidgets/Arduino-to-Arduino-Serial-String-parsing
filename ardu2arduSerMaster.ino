@@ -39,7 +39,6 @@ if (message != "") {
 
 //takes readied message and sends to other serial monitor when there's something to send then clears payload
   if (content != "") {
-    content2 = content;
     Serial.println(content);
     content = "";
   }
